@@ -1,0 +1,153 @@
+*{    
+    font-family: "agency FB";
+}
+
+body{
+    padding: 0px 16px;
+    font-size: 24px;
+    background-color: #b2daff;
+}
+@media (max-width: 750px) {
+    .content-wrap{
+        width: 100% !important;
+        flex-direction: column !important;
+    }
+    .teams-wrap{
+        width: 100% !important;
+        margin-top: 16px;
+    }
+    .query-wrap{
+        width: 100% !important;
+    }
+    
+    
+}
+.grg{
+    padding: 0px 8px;
+    width: 39px;
+    height: 39px;
+}
+
+.content-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.query-wrap{
+    width: 50%;
+}
+
+.num-input{
+    font-size: 24px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+    opacity: 1;
+}
+
+.input-wrap{
+    display: flex;
+    width: 100%;
+}
+
+.hidden-p{
+    margin-block: 0px !important;
+}
+
+.input-wrap p{
+    margin-block: 12px;
+    width: 75px;
+}
+
+.teams-wrap{
+    width: 50%;
+}
+
+.user-input{
+    font-size: 24px;
+    margin: 12px 4px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+}
+
+.buttons{
+    margin-top: 16px;
+    font-size: 24px;
+    padding: 12px 24px;
+    border: 3px solid #226efa;
+    background-color: #22bdfa;
+}
+
+.buttons:hover{
+    border: 3px solid #22bdfa;
+    background-color: #226efa;
+    cursor: pointer;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header{
+    padding: 4px 8px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #a0a0a0;
+}
+
+.red{
+    padding: 4px 8px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #ff6464;
+}
+
+.blue{
+    padding: 4px 8px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #64d3ff;
+}
+
+.green{
+    padding: 4px 8px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #49ff8f;
+}
+
+.yellow{
+    padding: 4px 8px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #fbff00;
+}
+
+.pink{
+    padding: 4px 8px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #ff2de3;
+} 
+
+.white{
+    padding: 4px 8px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #e7e7e7;
+}
+
+.black{
+    padding: 4px 8px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
